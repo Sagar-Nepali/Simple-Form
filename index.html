@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black;">
+    <!Heading>
+    <h1>
+        Form
+    </h1>
+
+    <!Form Start>
+    
+    <div class="box">
+
+        <form>
+
+            <h2>Fill the Details :</h2>
+
+            <!First-Name>
+            <div class="firstname">
+                <label for="firstname" style="font-weight: bold;">First Name : </label>
+                <input type="text-box" id="firstname" placeholder="Echo" required style="border-radius: 6px;" >
+            
+            </div>
+    
+    <br>
+    
+            <!Second-Name>
+            <div class="secondname">
+                <label for="secondname" style="font-weight: bold;">Second Name : 
+                <input type="text-box" id="secondname" placeholder="Pixel" required style="border-radius: 6px;">
+            </label>
+            </div>
+    
+    <br>
+
+    <!DOB>
+    <div class="DOB">
+        <label for="DOB" style="font-weight: bold;">Date of birth: 
+        <input type="date" id="DOB"  required style="border-radius: 6px;">
+    </label>
+    </div>
+
+<br>
+    
+        <!Country>
+        <div class="country">
+        <label required style="font-weight: bold;">Country : 
+            <select name="country" style="border-radius: 6px;">
+        <option value="Nepal">Nepal</option>
+        <option value="India">India</option>
+        <option value="China">China</option>
+        <option value="Iran">Iran</option>
+        <option value="Qatar">Qatar</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Sri Lanka">Sri Lanka</option>
+           </select>
+        </label>
+    </div>
+    
+    <br>
+    
+            <!Address>
+            <div class="address">
+                <label for="address" style="font-weight: bold;">Address : 
+                <input type="text-box" id="address" 
+                placeholder="Kathmandu,Gokarneshwor" required style="border-radius: 6px;" style="width: 225px;"  >
+            </label>
+            </div>
+    
+    <br>
+    
+            <!Email>
+            <div class="email">
+                <label for="email" style="font-weight: bold;">Email : 
+                <input type="email" id="email" placeholder="echopixel123@gmail.com" required style="border-radius: 6px;">
+            </label>
+            </div>
+            
+    <br>
+    
+            <!Phone-Number>
+            <div class="Phone Number">
+                <label for="Phone Number" style="font-weight: bold;">Phone Number : 
+                <input type="tel" id="Phone Number" maxlength="10" required placeholder="9848123456" style="border-radius: 6px;">
+            </label>
+            </div>
+    
+    <br>
+    
+        <!Gender>
+        <div class="Gender">
+        <label style="font-weight: bold;" >Gender : 
+            </label>
+        </div>
+
+        <br>
+
+        <div class="mfo"> 
+        <input type="radio" id="Male" name="gender">
+        <label for="Male">Male</label>
+    
+     
+    
+        <input type="radio" id="Female" name="gender" >
+        <label for="Female">Female</label>
+    
+      
+    
+        <input type="radio" id="Other" name="gender" >
+        <label for="Other">Other</label> 
+        
+        </div>
+        
+    
+    
+    <br>
+    
+        <!Submit/Reset>
+        <div>
+            <button type="submit" style="border-radius: 6px;" style="display: inline-block;"  >
+            Submit
+        </button>
+    
+        <button type="reset" style="border-radius: 6px;" style="display: inline-block;">
+            Reset
+        </button>
+        </div>
+</form>
+
+    </div>    
+
+
+</body>
+</html>

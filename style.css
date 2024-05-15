@@ -1,0 +1,66 @@
+::placeholder{
+    font-style: italic;
+}
+
+form{
+ 
+ font-size: 23px;
+}
+   
+h1:hover{
+    color: aquamarine;
+}
+
+.firstname{
+    margin-top: 10px;
+    
+}
+
+h1{
+    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-left: 22px;
+    color: White;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box{
+    width: 350px;
+  border: 0px solid black;
+  padding-top: 5px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  margin: 20px;
+  box-shadow: 5px 5px 32px grey;
+  background-color: white;
+  
+  
+}
+
+.mfo{
+    padding-left: 34px;
+    
+}
+
+
+
+
+button{
+    margin-left: 53px;
+    padding: 12px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: 2px;
+    border: 0 ;
+
+}
+
+button:hover{
+    background-color: aquamarine;
+    box-shadow: 5px 5px 32px grey;
+}
+
+button:active{
+    background-color: aqua;
+}
